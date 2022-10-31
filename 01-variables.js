@@ -6,6 +6,8 @@ var name = "praveen" ;
 console.log(name)
 const hi="hello";
 console.log(hi)
+console.log(typeof(hi))
+
 
 
 
