@@ -16,15 +16,15 @@ console.log(wishMe())
 // ADULT OR NOT
 
 function adult(age){
-   if(age > 18 && age < 25){
+   if(age >= 18 && age <= 25){
       return("you're eligible for voting")
    }else if(age<18){
       return("sorry you are a Kid")
-   }if(age>25){
-      return("you are eligible for nomination")
+   }if(age >= 25){
+      return("you are eligible for nomination and voting")
    }else{
       return("error")
    }
 }
-console.log(adult(28))
+console.log(adult())
 
