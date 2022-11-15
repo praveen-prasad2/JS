@@ -45,13 +45,6 @@ function printFrom(value){
 printFrom(8)
 
 
-// function printArray(arr){
-//     for(i=arr;i=(0-arr.length-1);arr[i]++){
-//         console.log(arr[i])
-//     }
-
-// }
-// printArray([1,2,3,4,5])
 
 function printArray(arr){
     for(i=0;i< arr.length;i++){
@@ -59,3 +52,4 @@ function printArray(arr){
     }
 }
 printArray(['a','b','c','d','e'])
+
